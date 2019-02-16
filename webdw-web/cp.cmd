@@ -1,0 +1,1 @@
+copy target\*.war D:\apache-tomcat-8.5.37-port80\webapps
