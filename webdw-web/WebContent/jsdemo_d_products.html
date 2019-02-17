@@ -66,7 +66,7 @@
 			alert("setdw test");
 			var dwname = "d_products"; //后台数据窗口的名字
 			var iret2 = 0;
-			iret2 = webdwui.setDataobject(dwname);
+			iret2 = webdwui.setDataobject("0",dwname);
 		}
 		
 		//设置后台的数据窗口对象
@@ -74,14 +74,14 @@
 			console.log("insert test");
 			var uuid = webdwui.uuid; //后台数据窗口的名字
 			var iret2 = 0;
-			iret2 = webdwui.insert(uuid);
+			iret2 = webdwui.insert("0",uuid);
 		}
 		
 		function deleteDW() {
 			console.log("delete test");
 			var uuid = webdwui.uuid; //后台数据窗口的名字
 			var iret2 = 0;
-			iret2 = webdwui.delete(uuid);
+			iret2 = webdwui.delete("0",uuid);
 		}
 		
 		//setrow
@@ -104,7 +104,7 @@
 			alert("update test:");
 			var uuid = webdwui.uuid; //后台数据窗口的名字
 			var iret2 = 0;
-			iret2 = webdwui.update(uuid);
+			iret2 = webdwui.update("0",uuid);
 		}
 		
 		//检索数据，由于后台是无状态的，因此需要重新传入数据窗口的名称进行检索
@@ -114,7 +114,7 @@
 			var iret3 = 0;
 			var args = "name=" + $("#p_name").val();
 			alert(args);
-			iret3 = webdwui.retrieve(dwname,args);
+			iret3 = webdwui.retrieve("",dwname,args);
 		}
 		
 	</script>
