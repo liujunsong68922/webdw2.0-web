@@ -1,0 +1,162 @@
+body{
+	font-size: 12px;
+	background: none;
+}
+.dateSearch{
+    width: auto;
+    float: left;
+	overflow: hidden;
+	padding-top:10px;
+}
+@media (min-width: 992px) {
+  .container {
+    width: 1100px;
+  }
+}
+.form-group label{
+	font-weight: 300;
+}
+.form-control{
+	font-size: 12px;
+	height: 32px;
+}
+.table-hover > tbody > tr:hover {
+    background-color: #ebf7ff;
+}
+
+.btn-info {
+	background-color: #3c8cff;
+    border-color: #3c8cff;
+    font-size: 12px;
+}
+.fixed-table-container{
+	border: none
+}
+tr td.aboutInit .tooltip,.aboutInit:last-child .tooltip{
+    left:5px !important;
+}
+.tooltip-inner{
+	background: rgba(64,64,64,0.85) !important;
+	line-height: 22px;
+	text-align: left;
+}
+.tooltip-arrow{
+	border-top-color:rgba(64,64,64,0.85) !important;
+	border-bottom-color:rgba(64,64,64,0.85) !important;
+}
+tr td.aboutInit .tooltip-arrow,.aboutInit:last-child .tooltip-arrow{
+    left:15% !important;
+}
+.form-control[readonly]{
+	background-color: #fff;
+}
+.layui-laydate-content .layui-laydate-list .layui-this{
+	background-color: #2b85e4 !important;
+	border-radius: 3px;
+}
+
+/*分页样式*/
+.pagination-info{
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+.page-list{
+	float: right;
+	display: block;
+	margin-left: 20px;
+}
+.fixed-table-pagination{
+	text-align: center;
+}
+.pagination-detail.pagination{
+	float: none !important;
+}
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus, 
+.btn-default.focus,
+.btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus{
+	background: none;
+	border:1px solid #2b85e4;
+	color: #23527c
+}
+.btn-group.dropup .btn{
+	padding: 4px 12px;
+}
+
+.row {
+    background: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/*加载中……*/
+.loading{
+    height: 100%;
+	min-height: 200px;
+	position: absolute;
+	width: 100%;
+    z-index: 999;
+}
+.ivu-spin-fix {
+    border: 0;
+    position: absolute;
+    top: 22%;
+    left: 0;
+    z-index: 8;
+    width: 100%;
+    height: 70%;
+    background-color: rgba(255,255,255,.3);
+}
+.ivu-spin {
+    color: #2d8cf0;
+    vertical-align: middle;
+    text-align: center;
+}
+.ivu-spin-fix .ivu-spin-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.ivu-spin-fix .ivu-spin-dot {
+    display: inline-block;
+}
+.ivu-spin-large .ivu-spin-dot {
+    width: 32px;
+    height: 32px;
+}
+.ivu-spin-dot {
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    background-color: #2d8cf0;
+    width: 20px;
+    height: 20px;
+    animation: ani-spin-bounce 1s 0s ease-in-out infinite;
+}
+@keyframes ani-spin-bounce{
+    0%{transform:scale(0)}
+    100%{transform:scale(1);opacity:0}
+}
+
+
+.btn-info:hover{
+    color: #fff !important;
+    background-color: #2b85e4 !important;
+    border-color: #2b85e4 !important;
+}
+.laydate-btns-confirm:hover{
+	color:#fff !important;
+	background: #3c8cff;
+}
+
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #3c8cff;
+    border-color: #3c8dff; 
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus{
+  background-color: #3c8cff;
+}

@@ -62,8 +62,8 @@ class CWebDWUIView{
 	/**
 	 * setDataobject function 这一方法用来在界面上设置数据窗口对象
 	 */
-	setDataobject(dwname){
-		var surl="/webdw/setdataobject?dwname="+dwname;
+	setDataobject(token,dwname){
+		var surl="/webdw/setdataobject?token="+token+"&dwname="+dwname;
 		// 增加随机数
 		surl = surl+"&rand="+(Math.random()*100);
 		
@@ -88,8 +88,8 @@ class CWebDWUIView{
 	/**
 	 * setDataobject function 这一方法用来在界面上设置数据窗口对象
 	 */
-	insert(uuid){
-		var surl="/webdw/insert?uuid="+uuid;
+	insert(token,uuid){
+		var surl="/webdw/insert?token="+token+"&uuid="+uuid;
 		// 增加随机数
 		surl = surl+"&rand="+(Math.random()*100);
 		
@@ -113,8 +113,8 @@ class CWebDWUIView{
 	/**
 	 * setDataobject function 这一方法用来在界面上设置数据窗口对象
 	 */
-	delete(uuid){
-		var surl="/webdw/delete?uuid="+uuid+"&rowid="+this.rowid;
+	delete(token,uuid){
+		var surl="/webdw/delete?token="+token+"&uuid="+uuid+"&rowid="+this.rowid;
 		// 增加随机数
 		surl = surl+"&rand="+(Math.random()*100);
 		
@@ -138,8 +138,8 @@ class CWebDWUIView{
 	/**
 	 * 这一方法用来在界面上设置数据窗口对象，并检索后台数据
 	 */
-	retrieve(dwname,args){
-		var surl="/webdw/retrieve?dwname="+dwname+"&args="+args;
+	retrieve(token,dwname,args){
+		var surl="/webdw/retrieve?token="+token+"&dwname="+dwname+"&args="+args;
 		// 增加随机数
 		surl = surl+"&rand="+(Math.random()*100);
 		
@@ -218,9 +218,9 @@ class CWebDWUIView{
 	/**
 	 * 这一方法用来在界面上设置数据窗口对象，并检索后台数据
 	 */
-	update(uuid){
+	update(token,uuid){
 		//this.rowid = rowid;
-		var surl="/webdw/update?uuid="+uuid;
+		var surl="/webdw/update?token="+token+"&uuid="+uuid;
 		// 增加随机数
 		surl = surl+"&rand="+(Math.random()*100);
 		
