@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index>
+	<title>fwebdw2 的源代码</title>
+	<nodes>
+		<node label="bin-release1">
+			<node label="history">
+				<node icon="cssIcon" label="history.css" url="source/bin-release1/history/history.css.html"/>
+				<node label="history.js" url="source/bin-release1/history/history.js.txt"/>
+				<node icon="htmlIcon" label="historyFrame.html" url="source/bin-release1/history/historyFrame.html"/>
+			</node>
+			<node label="CWebDWUIView.js" url="source/bin-release1/CWebDWUIView.js.txt"/>
+			<node label="framework_4.6.0.23201.swz" url="source/bin-release1/framework_4.6.0.23201.swz"/>
+			<node icon="cssIcon" label="fwebdw2.css" url="source/bin-release1/fwebdw2.css.html"/>
+			<node icon="htmlIcon" label="fwebdw2.html" url="source/bin-release1/fwebdw2.html"/>
+			<node icon="swfIcon" label="fwebdw2.swf" url="source/bin-release1/fwebdw2.swf"/>
+			<node label="jquery-3.3.1.js" url="source/bin-release1/jquery-3.3.1.js.txt"/>
+			<node icon="swfIcon" label="playerProductInstall.swf" url="source/bin-release1/playerProductInstall.swf"/>
+			<node label="spark_4.6.0.23201.swz" url="source/bin-release1/spark_4.6.0.23201.swz"/>
+			<node label="swfobject.js" url="source/bin-release1/swfobject.js.txt"/>
+			<node label="textLayout_2.0.0.232.swz" url="source/bin-release1/textLayout_2.0.0.232.swz"/>
+		</node>
+		<node label="html-template">
+			<node label="history">
+				<node icon="cssIcon" label="history.css" url="source/html-template/history/history.css.html"/>
+				<node label="history.js" url="source/html-template/history/history.js.txt"/>
+				<node icon="htmlIcon" label="historyFrame.html" url="source/html-template/history/historyFrame.html"/>
+			</node>
+			<node label="CWebDWUIView.js" url="source/html-template/CWebDWUIView.js.txt"/>
+			<node icon="htmlIcon" label="index.template.html" url="source/html-template/index.template.html"/>
+			<node label="jquery-3.3.1.js" url="source/html-template/jquery-3.3.1.js.txt"/>
+			<node icon="swfIcon" label="playerProductInstall.swf" url="source/html-template/playerProductInstall.swf"/>
+			<node label="swfobject.js" url="source/html-template/swfobject.js.txt"/>
+		</node>
+		<node label="libs">
+		</node>
+		<node label="src">
+			<node icon="packageIcon" label="com.webdw" expanded="true">
+				<node icon="mxmlIcon" label="MyJPanel.mxml" url="source/com/webdw/MyJPanel.mxml.html"/>
+			</node>
+			<node icon="cssIcon" label="fwebdw2.css" url="source/fwebdw2.css.html"/>
+			<node icon="mxmlAppIcon" selected="true" label="fwebdw2.mxml" url="source/fwebdw2.mxml.html"/>
+		</node>
+	</nodes>
+	<zipfile label="下载源代码（ZIP，104 KB）" url="fwebdw2.zip">
+	</zipfile>
+	<sdklink label="下载 Flex SDK" url="http://www.adobe.com/go/flex451_sdk_download_zh_CN">
+	</sdklink>
+</index>

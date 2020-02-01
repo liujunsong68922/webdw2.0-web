@@ -1,0 +1,14 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+
+
+global
+{
+	content-background-color: #F88B8B;
+	headerHeight: 50;
+}
+
+.mypanel{
+	headerHeight: 50;
+}
